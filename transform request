@@ -1,0 +1,5 @@
+#set($inputRoot = $input.path('$'))
+{ 
+"httpMethod":"$context.httpMethod",
+"keyword":"$input.params().querystring.get('keyword')"
+}
